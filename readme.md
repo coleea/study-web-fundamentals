@@ -1,15 +1,16 @@
-
----
-
 # css-in-depth 정리물
 
-[챕터 1](./css-in-depth-study/챕터_01.md)\
-\
-[챕터 3](./css-in-depth-study/챕터_03.md)
+<img src="./img/css-in-depth-book.png" width="200px" />
+
+- [챕터 1](./css-in-depth-study/챕터_01.md) <- 링크를 클릭
+
+- [챕터 3](./css-in-depth-study/챕터_03.md) <- 링크를 클릭
 
 ---
 
 # 웹 펀더멘탈
+
+<img src="./img/web_fundamentals.jpg" width="500px" />
 
 #### Q. 네트워크 요청시에 직렬화를 하라는데 직렬화가 뭔가?
 
