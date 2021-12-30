@@ -1,6 +1,10 @@
+
+---
+
 # css-in-depth 정리물
 
 [챕터 1](./css-in-depth-study/챕터_01.md)\
+\
 [챕터 3](./css-in-depth-study/챕터_03.md)
 
 ---
@@ -141,7 +145,10 @@ A. 운영 체계(OS) 내부에서 소프트웨어로 수행되는 TCP/IP 프로�
 
 #### Q. 어떻게 하면 유저가 원하는 정보를 빠르게 렌더링할 수 있을까 ?
 
-first-meaningful-paint (가장 의미있는 정보)가 뿌려지는 시간
-largest-contentful-paint (웹페이지에서 가장 큰 컨텐츠)가 뿌려지는 시간
--> Largest Contentful Paint는 사용자가 페이지에서 가장 의미 있는 콘텐츠를 얼마나 빨리 볼 수 있는지를 나타냅니다. 감각적인 로드 속도를 측정하고 페이지 로드 타임라인에서 페이지의 주요 콘텐츠가 로드되었다고 생각되는 타이밍을 나타냅니다.
-그런데 이상하다. 가장 의미있는 컨텐츠를 판단하는 지표는 FIRST-meaningful-paint가 아닌가 ?
+주로 두가지 지표가 사용된다
+1. first-meaningful-paint (FMP, 가장 의미있는 정보)가 뿌려지는 시간
+1. largest-contentful-paint (LCP, 웹페이지에서 가장 큰 컨텐츠)가 뿌려지는 시간\
+크롬 웹 바이탈에서 사용하는 지표는 LCP 이지만 상황에 따라서는 FMP가 더 중요하게 작용할 때도 있다
+
+
+---
